@@ -1,0 +1,96 @@
+/****
+Test CSS
+****/
+
+/****
+Fonts
+*****/
+h1, h2, h3, h4, h5 {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: bold;
+}
+
+.maven {
+	font-family: 'Maven Pro', sans-serif!important;
+	font-weight: 400;
+}
+
+h1.page-heading {
+	margin-top: 0px;
+	color: #686868;
+	font-size: 48px;
+}
+
+.badge {
+	vertical-align: top;
+	height: 30px;
+	width: 30px;
+	padding: 6px 0;
+	line-height: 1.2;
+	border-radius: 15px;
+}
+
+.badge-info {
+	background-color: #50E3C2;
+	font-size: 16px;
+}
+
+/****
+Navigation
+****/
+
+.navbar {
+	border-radius: 0px!important;
+	background-color: #FAEE30!important;
+	border: none!important;
+	height: auto!important;
+	max-height: auto!important;
+}
+
+.nav li a {
+	font-family: 'Maven Pro', sans-serif;
+	font-weight: 400;
+	color: #ffffff!important;
+	font-size: 18px;
+	padding: 30px 16px;
+}
+
+.nav li a.dropdown-toggle {
+	padding: 15px 0px 14px 16px;
+}
+
+.nav li.active a, .nav .open a.dropdown-toggle {
+	background-color: #F1E531!important;
+	color: #ffffff;
+}
+
+.nav li.open .dropdown-menu li a {
+	color: #686868!important;
+	background: none;
+	background-color: #ffffff;
+	padding: 8px 12px;
+}
+
+.navbar-brand {
+	height: 100%;
+}
+
+.navbar-brand img {
+	max-height: 50px;
+	width: auto;
+}
+
+/****
+Headings
+*****/
+.section-heading {
+	border-bottom: 1px solid #D8D8D8;
+}
+
+/****
+Page Content 
+*****/
+
+.page-content {
+	margin-top: 60px;
+}
